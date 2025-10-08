@@ -17,7 +17,7 @@ data "aws_ami" "Test" {
 
   filter {
     name   = "name"
-    values = ["al2023-ami-*"]
+    values = ["amzn2-ami-hvm-*-x86_64-gp2"]
   }
 
   filter {
